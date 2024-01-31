@@ -17,10 +17,10 @@ public class BookService {
         this.bookRepository = bookRepository;
     }
     public List<BookDto> getAllBooks(){
-        return bookRepository.findAll().stream().map(BookDto::convertFromBook).collect(Collectors.toList());
+        return bookRepository.findAll().stream().map(BookDto::convertFromBook).toList();
     }
     public BookIdDto findByIsbn(String isbn){
-        return bookRepository.getBookByIsbn(isbn).map(book -> new BookIdDto(book.getUuid(),book.getIsbn())).orElseThrow(()->new BookNotFoundException("Book could not found by isbn"+isbn));
+        return bookRepository.getBookByIsbn(isbn).map(book -> new BookIdDto(book.getUuid().toString(),book.getIsbn())).orElseThrow(()->new BookNotFoundException("Book could not found by isbn"+isbn));
     }
     public BookDto findBookDetailsById(String id){
         return bookRepository.findById(id).map(BookDto::convertFromBook).orElseThrow(()->new BookNotFoundException("Book could not found by id"+id));
