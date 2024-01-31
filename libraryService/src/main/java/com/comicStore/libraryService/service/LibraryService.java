@@ -10,7 +10,7 @@ import org.springframework.stereotype.Service;
 
 import java.util.Objects;
 import java.util.UUID;
-import java.util.stream.Collectors;
+
 
 @Service
 public class LibraryService {
@@ -29,7 +29,7 @@ public class LibraryService {
                 library.getUserBooks()
                         .stream()
                         .map(book -> Objects.requireNonNull(bookServiceClient.getBookById(book).getBody()).uuid().toString())
-                        .collect(Collectors.toList()));
+                        .toList());
     }
     public LibraryDto createLibrary(){
         Library library = libraryRepository.save(new Library());
