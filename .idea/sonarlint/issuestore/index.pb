@@ -49,3 +49,9 @@ E
 XlibraryService/src/main/java/com/comicStore/libraryService/client/BookServiceClient.java,3\3\33f74cdeed89f68bebc6d92763fc878126afb7a1
 â
 YlibraryService/src/main/java/com/comicStore/libraryService/LibraryServiceApplication.java,7\1\714765f6301e0b007e07f3aa13445e7abbbc8922
+í
+blibraryService/src/main/java/com/comicStore/libraryService/client/RetrieveMessageErrorDecoder.java,1\2\1218d07e499b2d7e0f652c5f6b74efe59e130871
+ä
+ZlibraryService/src/main/java/com/comicStore/libraryService/exception/ExceptionMessage.java,e\0\e09d77474e1b8e805fc046f5a8249b6d8455b85d
+è
+_libraryService/src/main/java/com/comicStore/libraryService/exception/BookNotFoundException.java,7\8\789cab2e3f7eb8966c37c92feeb4193bc46b23c1

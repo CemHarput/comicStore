@@ -1,4 +1,4 @@
 
-o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ëæì‡
+v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ëæì‡8ëú¼¨Ö1
 C
-java:S1452"&Remove usage of generic wildcard type.(‚µ½8µ ÊÍÕ1
+java:S1452"&Remove usage of generic wildcard type.(‚µ½8òú¼¨Ö1

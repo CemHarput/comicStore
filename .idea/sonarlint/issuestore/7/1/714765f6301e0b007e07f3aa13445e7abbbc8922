@@ -1,2 +1,4 @@
 
-o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Åß≤Ÿ
+v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Åß≤Ÿ8À∂Î≠÷1
+Q
+java:S1128"4Remove this unused import 'org.slf4j.LoggerFactory'.(ñˇ⁄ﬁ8Ÿ∂Î≠÷1
