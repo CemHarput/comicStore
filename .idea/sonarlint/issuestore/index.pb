@@ -55,3 +55,11 @@ blibraryService/src/main/java/com/comicStore/libraryService/client/RetrieveMessa
 ZlibraryService/src/main/java/com/comicStore/libraryService/exception/ExceptionMessage.java,e\0\e09d77474e1b8e805fc046f5a8249b6d8455b85d
 è
 _libraryService/src/main/java/com/comicStore/libraryService/exception/BookNotFoundException.java,7\8\789cab2e3f7eb8966c37c92feeb4193bc46b23c1
+?
+gateway/pom.xml,4\b\4b316bc60d1cfae51045f6fc8e58a8ae31f03ff3
+<
+gateway/mvnw,e\5\e5a3d5450becc8a5b6bd995f01338866048aaf73
+@
+gateway/mvnw.cmd,2\b\2b83d90c1fa7d29755ba2aa43a61215a9bcc60c7
+
+OlibraryService/src/main/java/com/comicStore/libraryService/dto/UserBookDto.java,5\4\54858446450d8d6f085ec021c62be1907d4bfbb7

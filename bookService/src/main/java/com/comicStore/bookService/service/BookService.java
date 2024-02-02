@@ -7,6 +7,7 @@ import com.comicStore.bookService.repository.BookRepository;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
+import java.util.UUID;
 import java.util.stream.Collectors;
 
 @Service
@@ -22,7 +23,7 @@ public class BookService {
     public BookIdDto findByIsbn(String isbn){
         return bookRepository.getBookByIsbn(isbn).map(book -> new BookIdDto(book.getUuid().toString(),book.getIsbn())).orElseThrow(()->new BookNotFoundException("Book could not found by isbn"+isbn));
     }
-    public BookDto findBookDetailsById(String id){
-        return bookRepository.findById(id).map(BookDto::convertFromBook).orElseThrow(()->new BookNotFoundException("Book could not found by id"+id));
+    public BookDto findBookDetailsById(String uuid){
+        return bookRepository.findByUuid(UUID.fromString(uuid)).map(BookDto::convertFromBook).orElseThrow(()->new BookNotFoundException("Book could not found by id"+uuid));
     }
 }

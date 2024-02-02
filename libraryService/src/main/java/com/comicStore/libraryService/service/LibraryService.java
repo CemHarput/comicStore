@@ -22,18 +22,17 @@ public class LibraryService {
         this.bookServiceClient = bookServiceClient;
     }
     public LibraryDto getAllBooksInLibrary(String id){
-        Library library = libraryRepository.findById(id).orElseThrow(()->new LibraryNotFoundException("Library could not found : "+id));
+       Library library = libraryRepository.findByUuid(UUID.fromString(id)).orElseThrow(()->new LibraryNotFoundException("Library could not found : "+id));
 
-
-        return new LibraryDto(library.getUuid(),
+       return new LibraryDto(library.getUuid().toString(),
                 library.getUserBooks()
                         .stream()
-                        .map(book -> Objects.requireNonNull(bookServiceClient.getBookById(book).getBody()).uuid().toString())
+                        .map(book -> bookServiceClient.getBookById(book).getBody())
                         .toList());
     }
     public LibraryDto createLibrary(){
         Library library = libraryRepository.save(new Library());
-        return new LibraryDto(library.getUuid(),null);
+        return new LibraryDto(library.getUuid().toString(),null);
     }
     public void addBookToLibrary(AddBookRequest request){
         String bookId = String.valueOf(Objects.requireNonNull(bookServiceClient.getBookByIsbn(request.isbn()).getBody()).uuid());

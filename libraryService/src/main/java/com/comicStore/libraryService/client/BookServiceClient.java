@@ -14,12 +14,11 @@ import java.util.List;
 @FeignClient(name="book-service",path="/v1/book")
 public interface BookServiceClient {
 
-    Logger logger= LoggerFactory.getLogger(BookServiceClient.class);
     @GetMapping("/isbn/{isbn}")
     ResponseEntity<BookIdDto> getBookByIsbn(@PathVariable String isbn);
 
-    @GetMapping("/book/{id}")
-    ResponseEntity<BookDto> getBookById(@PathVariable String id);
+    @GetMapping("/book/{uuid}")
+    ResponseEntity<BookDto> getBookById(@PathVariable String uuid);
 
     @GetMapping
     ResponseEntity<List<BookDto>> getAllBook();

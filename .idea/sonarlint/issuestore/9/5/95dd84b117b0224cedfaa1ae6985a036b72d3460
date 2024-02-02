@@ -1,5 +1,2 @@
 
-v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ŞÿóÈ8ˆº„¬Õ1
-Z
-java:S1128
-"8Remove this unused import 'java.util.stream.Collectors'.(Óóº´úÿÿÿÿ8Ò Ô Ö1
+v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ŞÿóÈ8ûšÙÚÖ1
