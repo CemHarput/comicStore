@@ -61,3 +61,7 @@ _libraryService/src/main/java/com/comicStore/libraryService/exception/BookNotFou
 gateway/mvnw,e\5\e5a3d5450becc8a5b6bd995f01338866048aaf73
 @
 gateway/mvnw.cmd,2\b\2b83d90c1fa7d29755ba2aa43a61215a9bcc60c7
+Z
+*gateway/src/main/resources/application.yml,6\9\69f854aca2550dae5ffb5cdb1c4ca8f8460a93d3
+t
+Dgateway/src/main/java/com/comicStore/gateway/GatewayApplication.java,3\2\32e975fa1b87da193658f590dac18e7af4da85db
