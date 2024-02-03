@@ -61,5 +61,3 @@ _libraryService/src/main/java/com/comicStore/libraryService/exception/BookNotFou
 gateway/mvnw,e\5\e5a3d5450becc8a5b6bd995f01338866048aaf73
 @
 gateway/mvnw.cmd,2\b\2b83d90c1fa7d29755ba2aa43a61215a9bcc60c7
-
-OlibraryService/src/main/java/com/comicStore/libraryService/dto/UserBookDto.java,5\4\54858446450d8d6f085ec021c62be1907d4bfbb7
