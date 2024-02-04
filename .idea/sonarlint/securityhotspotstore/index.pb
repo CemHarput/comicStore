@@ -65,3 +65,7 @@ Z
 *gateway/src/main/resources/application.yml,6\9\69f854aca2550dae5ffb5cdb1c4ca8f8460a93d3
 t
 Dgateway/src/main/java/com/comicStore/gateway/GatewayApplication.java,3\2\32e975fa1b87da193658f590dac18e7af4da85db
+„
+Tconfig-server/src/main/java/com/comicStore/configserver/ConfigServerApplication.java,1\d\1d5dafa961a517ed0ba47d8221ef85d5b534856d
+E
+config-server/pom.xml,a\2\a2f9618c8ad821b143a07a29a9805fcb0b2df470
