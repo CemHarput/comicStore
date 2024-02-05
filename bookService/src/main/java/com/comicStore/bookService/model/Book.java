@@ -31,9 +31,6 @@ public class Book {
     private String format;
     private int pageCount;
 
-    public Book() {
-    }
-
     public Book(int id, int digitalId, String title, int issueNumber, String variantDescription, String description, Date modified, String isbn, String upc, String diamondCode, String ean, String issn, String format, int pageCount) {
         this.id = id;
         this.digitalId = digitalId;

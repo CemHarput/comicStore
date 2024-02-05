@@ -83,3 +83,9 @@ Q
 !config/library-service.properties,f\7\f702d9df9d0486b78d17094ff5291d16ddf75aad
 U
 %config/library-service-dev.properties,c\b\cba6d6677c71891dcbc40c0e498fdd5da9fbb645
+ƒ
+ScharacterService/src/main/java/com/comicStore/characterService/model/Character.java,1\e\1eda2fe3686b171114388050bf6c39aa8007fb73
+’
+bcharacterService/src/main/java/com/comicStore/characterService/repository/CharacterRepository.java,a\7\a70bb5fae12c57a521e9fecc02c521ffdac1e885
+„
+TcharacterService/src/main/java/com/comicStore/characterService/dto/CharacterDto.java,e\9\e9cac2f58d27a4e6ce53c66b625a04eef11fbf1d
