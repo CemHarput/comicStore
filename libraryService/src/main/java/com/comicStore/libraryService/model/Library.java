@@ -22,11 +22,6 @@ public class Library {
     public Library() {
     }
 
-    public Library(UUID uuid, List<String> userBooks) {
-        this.uuid = uuid;
-        this.userBooks = userBooks;
-    }
-
     public UUID getUuid() {
         return uuid;
     }

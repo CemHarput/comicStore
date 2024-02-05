@@ -1,5 +1,5 @@
 
 s
-java:S1192"QDefine a constant instead of duplicating this literal "Test Book Object" 4 times.(ÛĞšåùÿÿÿÿ8û–Ò®Õ1
+java:S1192""QDefine a constant instead of duplicating this literal "Test Book Object" 4 times.(ÛĞšåùÿÿÿÿ8û–Ò®Õ1
 {	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¥ãùııÿÿÿÿ8ŒòÍ®Õ1
-G	java:S106!"+Replace this use of System.out by a logger.(ŠÜö›8¾ÿÔ®Õ1
+G	java:S106%"+Replace this use of System.out by a logger.(ŠÜö›8¾ÿÔ®Õ1

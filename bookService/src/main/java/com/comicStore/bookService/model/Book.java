@@ -34,24 +34,6 @@ public class Book {
     public Book() {
     }
 
-    public Book(UUID uuid, int id, int digitalId, String title, int issueNumber, String variantDescription, String description, Date modified, String isbn, String upc, String diamondCode, String ean, String issn, String format, int pageCount) {
-        this.uuid = uuid;
-        this.id = id;
-        this.digitalId = digitalId;
-        this.title = title;
-        this.issueNumber = issueNumber;
-        this.variantDescription = variantDescription;
-        this.description = description;
-        this.modified = modified;
-        this.isbn = isbn;
-        this.upc = upc;
-        this.diamondCode = diamondCode;
-        this.ean = ean;
-        this.issn = issn;
-        this.format = format;
-        this.pageCount = pageCount;
-    }
-
     public Book(int id, int digitalId, String title, int issueNumber, String variantDescription, String description, Date modified, String isbn, String upc, String diamondCode, String ean, String issn, String format, int pageCount) {
         this.id = id;
         this.digitalId = digitalId;

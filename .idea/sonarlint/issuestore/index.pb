@@ -69,3 +69,17 @@ Dgateway/src/main/java/com/comicStore/gateway/GatewayApplication.java,3\2\32e97
 Tconfig-server/src/main/java/com/comicStore/configserver/ConfigServerApplication.java,1\d\1d5dafa961a517ed0ba47d8221ef85d5b534856d
 E
 config-server/pom.xml,a\2\a2f9618c8ad821b143a07a29a9805fcb0b2df470
+9
+	README.md,8\e\8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
+H
+characterService/pom.xml,d\5\d58d56003ffd3bdd96b6cf1da0a2d7e18448f438
+è
+_characterService/src/main/java/com/comicStore/characterService/CharacterServiceApplication.java,d\d\ddd7bd5cb31ad87852e0ceaea79cd317d94d85f6
+D
+config/src/Main.java,7\c\7cf8d32a09426d777e19fdf45a12f06dc06dc1b5
+A
+config/config.iml,9\1\918e50836fce8b4ba46a900d6df615b02ae5c199
+Q
+!config/library-service.properties,f\7\f702d9df9d0486b78d17094ff5291d16ddf75aad
+U
+%config/library-service-dev.properties,c\b\cba6d6677c71891dcbc40c0e498fdd5da9fbb645
