@@ -85,3 +85,5 @@ ScharacterService/src/main/java/com/comicStore/characterService/model/Character.
 bcharacterService/src/main/java/com/comicStore/characterService/repository/CharacterRepository.java,a\7\a70bb5fae12c57a521e9fecc02c521ffdac1e885
 „
 TcharacterService/src/main/java/com/comicStore/characterService/dto/CharacterDto.java,e\9\e9cac2f58d27a4e6ce53c66b625a04eef11fbf1d
+h
+8config/vault-cluster-vault-2024-02-07T14 23 43.175Z.json,3\6\36649efe6ae8f83420a0241f52717adff40c0a87

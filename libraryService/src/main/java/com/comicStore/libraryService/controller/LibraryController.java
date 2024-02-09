@@ -5,6 +5,7 @@ import com.comicStore.libraryService.dto.LibraryDto;
 import com.comicStore.libraryService.service.LibraryService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
@@ -15,6 +16,8 @@ public class LibraryController {
     Logger logger = LoggerFactory.getLogger(LibraryController.class);
     private final LibraryService libraryService;
 
+    @Value("${comicStore.dev.developer-1}")
+    private String count;
     public LibraryController(LibraryService libraryService) {
         this.libraryService = libraryService;
     }
@@ -33,6 +36,11 @@ public class LibraryController {
         logger.info("addBookToLibrary is started by {}",request.uuid());
         libraryService.addBookToLibrary(request);
         return ResponseEntity.ok().build();
+    }
+
+    @GetMapping("/count")
+    public ResponseEntity<String> getCount() {
+        return ResponseEntity.ok("Library count is" + count);
     }
 
 }
